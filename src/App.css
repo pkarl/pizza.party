@@ -1,16 +1,33 @@
+*+p {
+  margin: 0.878787em 0;
+  line-height: 22px;
+}
+
 .content-container {
   padding: 10px;
 }
 
-nav {
+.subnav {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  margin: 10px 20px;
+}
+
+.subnav a {
+  display: inline-block;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 nav a {
   display: inline-block;
+  text-align: center;
 }
 
 .nav-icon {
@@ -36,4 +53,22 @@ nav a {
 .wall-of-text {
   max-width: 50%;
   margin: 0 auto;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .content-container {
+    padding: 20px 10px;
+  }
+  .wall-of-text {
+    max-width: 100%;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+  .nav-title {
+    width: calc(100% - 40px);
+    max-height: none;
+  }
+  .timeline {
+    width: 100%;
+  }
 }
