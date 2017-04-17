@@ -2,7 +2,7 @@
   "name": "peteisa.party",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pkarl.github.io/pizza.party/",
+  "homepage": "http://peteisa.party/",
   "dependencies": {
     "gh-pages": "^0.12.0",
     "p5": "^0.5.8",
