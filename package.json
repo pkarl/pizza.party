@@ -2,7 +2,7 @@
   "name": "peteisa.party",
   "version": "0.1.0",
   "private": true,
-
+  "homepage": "https://pkarl.github.io/pizza.party/",
   "dependencies": {
     "gh-pages": "^0.12.0",
     "p5": "^0.5.8",
@@ -10,7 +10,8 @@
     "react": "^15.5.3",
     "react-dom": "^15.5.3",
     "react-router": "^4.1.1",
-    "react-router-dom": "^4.1.1"
+    "react-router-dom": "^4.1.1",
+    "react-twitter-widgets": "^1.2.0"
   },
   "devDependencies": {
     "react-scripts": "0.9.5"
