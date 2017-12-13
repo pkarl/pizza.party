@@ -11,6 +11,13 @@ const Random = () => (
     <ul className="link-list">
       <li>
         <a
+          href="https://medium.com/drift-engineering/how-to-design-teams-that-build-at-unbelievable-speeds-47ad1ac582e5"
+        >
+        How to Design Teams that Build at Unbelievable Speeds
+        </a>
+      </li>
+      <li>
+        <a
           href="https://byrslf.co/how-to-look-like-a-professional-photographer-online-b61931f7f68d"
         >
           How to Look Like a Professional Photographer (online): A few ideas to suppress the amateur inside of us.
